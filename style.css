@@ -1,6 +1,6 @@
 /*geral*/
 
-body, header, nav, section, aside, footer, ul, li, p {
+body, header, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -21,7 +21,7 @@ a{
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    background: rgb(52, 53, 52);
+    background: rgb(67, 68, 67);
     color: white;
 }
 
@@ -37,4 +37,30 @@ a{
 .menu li a{
     display: block;
     padding: 10px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    background: rgb(100, 101, 102);
+}
+
+
+.ImgPrincipal{
+    display: flex;
+}
+
+footer{
+    display: flex;
+}
+
+.rodape{
+    display: flex;
+    background: cornflowerblue;
+    height: 50%;
+    
+    
 }
