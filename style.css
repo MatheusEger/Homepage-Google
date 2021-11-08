@@ -133,34 +133,31 @@ a {
 footer{
     display: flex;
     font-size: 15px;
-    padding: 25px;
     flex-wrap: wrap;
     flex-direction: column; 
-    position: relative;
     flex-shrink: 0;
     position: absolute;
     bottom: 0;
     max-width: 100%;
-    width: 95%;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
 .fot1 {
+    
     display: flex;
-    padding-bottom: 18px;
+    
 }
 
 .fot2 {
-
+    padding-left: 30px;
+    background-color: aqua;
     display: flex;
     
-    justify-content: space-around;
-    align-items: flex-start;
-
+   
 }
 .fot3{
+    background: brown;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-
 }
