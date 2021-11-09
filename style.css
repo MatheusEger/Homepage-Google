@@ -1,4 +1,4 @@
-/*geral*/
+ /*geral*/
 
 body, header, ul, li, p {
     margin: 0px;
@@ -8,12 +8,15 @@ body, header, ul, li, p {
     font-family: Arial;
     max-width: 100%;
     
+    
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+
+
 
 .header{
     display: flex;
@@ -44,7 +47,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px;
+    padding: 5%;
     background: rgb(100, 101, 102);
 }
 
@@ -60,7 +63,7 @@ footer{
 .rodape{
     display: flex;
     background: cornflowerblue;
-    height: 50%;
+    
     
     
 }
