@@ -120,12 +120,3 @@ footer{
     display: block;
     padding: 4px;
 }
-
-@media (max-width: 600px){
-    footer{
-        position: absolute;
-        flex-wrap: wrap;
-        align-items: center;
-        bottom: 0;
-    }
-}
