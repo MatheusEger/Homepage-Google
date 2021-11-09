@@ -16,6 +16,15 @@ a {
 }
 
 /*MENU/NAV*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    padding: 15px;
+
+}
 
 .menu {
     background: #ffffff; 
