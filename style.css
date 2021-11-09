@@ -24,7 +24,7 @@ a{
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    background: rgb(67, 68, 67);
+    background: rgb(105, 105, 105);
     color: white;
 }
 
@@ -48,7 +48,7 @@ section{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 5%;
-    background: rgb(100, 101, 102);
+    background: rgba(255, 255, 255, 0.349);
 }
 
 
@@ -56,13 +56,27 @@ section{
     display: flex;
 }
 
+
+/*RODAPÉ*/
+
 footer{
     display: flex;
+    font-size: 15px;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    position: relative;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    
 }
 
 .rodape{
     display: flex;
     background: cornflowerblue;
+    height: 100%;
     
     
     
