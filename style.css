@@ -151,16 +151,12 @@ footer{
 }
 
 .fot2 {
-
     display: flex;
-    
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
 
 }
-.fot3{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-
+.fot2 li a{
+    font-size: 1.0rem;
 }
