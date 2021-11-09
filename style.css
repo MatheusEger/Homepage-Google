@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family = Cabin: ital, wght @ 1.500 & display = swap');
+
  /*geral*/
 
 body, header, ul, li, p {
@@ -22,7 +24,7 @@ a{
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    background: rgb(105, 105, 105);
+    background: rgb(112, 112, 112);
     color: white;
 }
 
@@ -32,12 +34,18 @@ a{
 
 .menu li{
     margin-left: 10px;
-    
 }
 
 .menu li a{
     display: block;
     padding: 10px;
+    font-size: 15px;
+}
+
+.estilosSub:hover{
+    color: white;
+    text-decoration: underline;
+    
 }
 
 /*BOTÃO DE LOGIN*/
@@ -62,17 +70,21 @@ section{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 5%;
+    padding: 10%;
     background: rgba(255, 255, 255, 0.349);
+    font-family: Cabin sans-serif;
+    justify-content: center;
 }
+
 
 .ImgPrincipal{
     display: flex;
+   
     
 }
 .ImgPrincipal img{
     width: 400px;
-    height: 350;
+    height: 350px;
     
 }
 
@@ -80,20 +92,40 @@ section{
 /*RODAPÉ*/
 
 footer{
+    background: rgb(112, 112, 112);
     display: flex;
     font-size: 15px;
     flex-wrap: wrap;
     flex-direction: column; 
-    position: relative;
     flex-shrink: 0;
     position: absolute;
     bottom: 0;
     max-width: 100%;
     width: 100%;
+    align-items: center;
+    padding: 5px;
 }
 
 .rodape{
     display: flex;
-    background: cornflowerblue;
     height: 100%;
+    
+    
+}
+.rodape p{
+    font-size: 12px;
+    
+}
+.redes{
+    display: block;
+    padding: 4px;
+}
+
+@media (max-width: 400px){
+    footer{
+        
+        flex-wrap: wrap;
+        align-items: center;
+        bottom: 0;
+    }
 }
