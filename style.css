@@ -1,48 +1,51 @@
-/*geral*/
+@import url('https://fonts.googleapis.com/css2? family = Cabin: ital, wght @ 1.500 & display = swap');
 
-body, ul, li, p {
+ /*geral*/
+
+body, header, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
-    max-width: 100%;
-    
+    max-width: 100%;   
 }
 
-a {
+a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
-/*MENU/NAV*/
+/*HEADER & MENU*/
 
-.menu {
-    background: #ffffff; 
+.header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 20px;
     align-items: center;
-    padding: 15px;
+    flex-wrap: wrap;
+    background: rgb(112, 112, 112);
+    color: white;
+}
+
+.menu{
+    display: flex;
 }
 
 .menu li{
-    margin-left: 8px;
-    font-size: 13px;
+    margin-left: 10px;
 }
 
-.menu li a {
+.menu li a{
     display: block;
     padding: 10px;
+    font-size: 15px;
 }
 
-.menu img, button{
-    display: block;
-    padding: 14px;
-}
-
-.menu li:hover{
+.estilosSub:hover{
+    color: white;
     text-decoration: underline;
-
+    
 }
 
 /*BOTÃO DE LOGIN*/
@@ -60,107 +63,69 @@ a {
     background: #2986ff;
 }
 
-/*SEÇÃO PRINCIPAL*/
+/*FORMULARIO E IMG PRINCIPAL*/
 
-.imgGoogle{
-    padding-top: 2%;
+section{
     display: flex;
-    justify-content: space-around;
-
-}
-
-#barraPesquisa{
     align-items: center;
-    border: 0.1px solid rgb(225, 225, 225);
-    width: 30em;
-    height: 2.5em;
-    padding-left: 36px;
-    border-radius: 19px;
-    
-}
-
-.search{
-    padding-left: 40px;
-    position: relative;
-    left: 0;
-    top: 7vh;
-    padding: 9px 8px;
-    color: #aaa;
-}
-
-.section{
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 1fr;
-    padding-bottom: 25vh;
-    height: 23vh;
-}
-
-
-.botao{
-    display: flex;
-    padding-top: 1em;
-    padding: 10px 25px 10px;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10%;
+    background: rgba(255, 255, 255, 0.349);
+    font-family: Cabin sans-serif;
+    justify-content: center;
+}
+
+
+.ImgPrincipal{
+    display: flex;
+   
+    
+}
+.ImgPrincipal img{
+    width: 400px;
+    height: 350px;
     
 }
 
-.botao button {
-    border: transparent;
-    padding: 10px 25px 10px;
-    border-radius: 4px;  
-    color: rgb(43, 43, 43);
-    font-size: 14px;
-    
-}
-.botao a {
-    border: transparent;
-    padding: 10px 5px 10px;
-    border-radius: 4px;  
-    color: rgb(43, 43, 43);
-    font-size: 14px;
-    
-}
-
-.botao button:hover{
-    border: 0.1px solid rgb(225, 225, 225);
-}
 
 /*RODAPÉ*/
 
 footer{
+    background: rgb(112, 112, 112);
     display: flex;
     font-size: 15px;
-    padding: 25px;
     flex-wrap: wrap;
     flex-direction: column; 
-    position: relative;
     flex-shrink: 0;
     position: absolute;
     bottom: 0;
     max-width: 100%;
-    width: 95%;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+}
+
+.rodape{
+    display: flex;
+    height: 100%;
+    
     
 }
-
-.fot1 {
-    display: flex;
-    padding-bottom: 18px;
-}
-
-.fot2 {
-
-    display: flex;
+.rodape p{
+    font-size: 12px;
     
-    justify-content: space-around;
-    align-items: flex-start;
-
 }
-.fot3{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+.redes{
+    display: block;
+    padding: 4px;
+}
 
+@media (max-width: 400px){
+    footer{
+        
+        flex-wrap: wrap;
+        align-items: center;
+        bottom: 0;
+    }
 }
