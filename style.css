@@ -6,9 +6,7 @@ body, header, ul, li, p {
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
-    max-width: 100%;
-    
-    
+    max-width: 100%;   
 }
 
 a{
@@ -16,7 +14,7 @@ a{
     color: white;
 }
 
-
+/*HEADER & MENU*/
 
 .header{
     display: flex;
@@ -42,6 +40,23 @@ a{
     padding: 10px;
 }
 
+/*BOTÃO DE LOGIN*/
+
+#login{
+    background: #1a73e8;
+    border: 0.1px;
+    padding: 10px 22px 10px;
+    font-size: 15px;
+    border-radius: 4px; 
+    color: #fff;  
+}
+
+#login:hover{
+    background: #2986ff;
+}
+
+/*FORMULARIO E IMG PRINCIPAL*/
+
 section{
     display: flex;
     align-items: center;
@@ -51,9 +66,14 @@ section{
     background: rgba(255, 255, 255, 0.349);
 }
 
-
 .ImgPrincipal{
     display: flex;
+    
+}
+.ImgPrincipal img{
+    width: 400px;
+    height: 350;
+    
 }
 
 
@@ -70,14 +90,10 @@ footer{
     bottom: 0;
     max-width: 100%;
     width: 100%;
-    
 }
 
 .rodape{
     display: flex;
     background: cornflowerblue;
     height: 100%;
-    
-    
-    
 }
