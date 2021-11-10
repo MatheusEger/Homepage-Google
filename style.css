@@ -98,7 +98,8 @@ footer{
     flex-wrap: wrap;
     flex-direction: column; 
     flex-shrink: 0;
-    position: relative;
+    bottom: 0;
+    position: absolute;
     max-width: 100%;
     width: 100%;
     align-items: center;
